@@ -27,3 +27,10 @@ map <leader>co ggVGy:tabnew<cr>:set syntax=qf<cr>pgg
 map <leader>n :cn<cr>
 map <leader>p :cp<cr>
 
+" tagbar
+let g:tagbar_left = 1
+let g:tagbar_width=26
+let g:tagbar_autofocus = 1
+nmap <F4> :TagbarToggle<CR>
+
+
